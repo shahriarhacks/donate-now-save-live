@@ -53,7 +53,8 @@ body {
 .donate-h2 {
     color: #7d5959;
     margin: 0 3%;
-    text-align: center
+    text-align: center;
+    cursor: pointer;
 }
 
 .donate-head2 {
@@ -63,6 +64,7 @@ body {
     border: 2px solid orange;
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 
 hr {
@@ -79,4 +81,34 @@ hr {
     border: none;
     text-align: center;
     margin-left: 45%
+}
+
+.donation-plan {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.food-for-family {
+    width: 25%;
+    margin: 3%;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: skyblue;
+}
+
+.shelter-for-family {
+    width: 25%;
+    margin: 3%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: pink;
+}
+
+.education-for-child {
+    width: 25%;
+    margin: 3%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: darksalmon;
 }
